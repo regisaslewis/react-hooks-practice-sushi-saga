@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MoreButton from "./MoreButton";
 import Sushi from "./Sushi"
 
-function SushiContainer({ sushiList, showNext, charge }) {
+function SushiContainer({ sushiList, charge }) {
 
   const [indexNumber, setIndexNumber] = useState(0)
 
